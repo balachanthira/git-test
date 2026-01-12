@@ -3,7 +3,7 @@
     "name": "data-pipeline",
     "steps": [
       {
-        "name": "bala",
+        "name": "load",
         "type": "source",
         "data": "input.csv"
       },
