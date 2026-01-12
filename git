@@ -3,7 +3,7 @@
     "name": "data-pipeline",
     "steps": [
       {
-        "name": "extract",
+        "name": "dharani",
         "type": "source",
         "data": "input.csv"
       },
