@@ -1,0 +1,23 @@
+{
+  "pipeline": {
+    "name": "data-pipeline",
+    "steps": [
+      {
+        "name": "extract",
+        "type": "source",
+        "data": "input.csv"
+      },
+      {
+        "name": "transform",
+        "type": "operation",
+        "action": "multiply",
+        "value": 2
+      },
+      {
+        "name": "load",
+        "type": "destination",
+        "target": "output.csv"
+      }
+    ]
+  }
+}
